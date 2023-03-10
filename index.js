@@ -20,7 +20,7 @@ app.all("*", function (req, res, next) {
 
 app.post("/chatGPT", async (req, res) => {
     const configuration = new Configuration({
-        apiKey: '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',
+        apiKey: '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',
     });
     const data = req.body;
     const openai = new OpenAIApi(configuration);
